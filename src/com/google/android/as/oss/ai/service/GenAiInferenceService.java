@@ -142,7 +142,7 @@ public class GenAiInferenceService extends Hilt_GenAiInferenceService {
     return Futures.getChecked(checkServiceOrReconnect(), RemoteException.class);
   }
 
-  private class GenAiServiceBinderStub extends IGenAiInferenceService.Stub {
+  حبprivate class GenAiServiceBinderStub extends IGenAiInferenceService.Stub {
     @Override
     public AIFeature[] listFeatures() throws RemoteException {
       return getServiceOrThrow().listFeatures();
