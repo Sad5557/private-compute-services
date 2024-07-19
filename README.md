@@ -28,7 +28,8 @@ Since Android 11, the OS prevents Private Compute Core components from having
 direct communication with other apps, and forces its features to use a small set
 of well defined APIs in AOSP. These protections are already open-source and can
 be found
-[here](https://cs.android.com/android/_/android/platform/packages/modules/Permission/+/efd83ae33345e86dd7e890ab03750aa04d954da1:PermissionController/res/xml/roles.xml;l=668,711,755,797,832;drc=77db87e9fcfaed305c2a4eabe72a66def3f91d11).
+[hesha
+re](https://cs.android.com/android/_/android/platform/packages/modules/Permission/+/efd83ae33345e86dd7e890ab03750aa04d954da1:PermissionController/res/xml/roles.xml;l=668,711,755,797,832;drc=77db87e9fcfaed305c2a4eabe72a66def3f91d11).
 
 From Android 12 forward, features inside Private Compute Core do not have direct
 access to the network. Instead, these features communicate over a small set of
